@@ -10,14 +10,14 @@ GSM = GSM_MODULE(17, 18, 1234, 123123123, ['Python library for GSM module.', 'De
 #GSM = GSM_MODULE(PWR_pin, RST_pin, SIM_cart_pin, phone_number, ['message_1','message_2', 'message_3', 'message_...'])
 
 error=GSM.init()
-if erro == 0:
+if error == 0:
 	print 'OK'
 else:
 	print 'NO OK!!!!'
 	
 
 error_2=GSM.send_sms()
-if erro_2 == 0:
+if error_2 == 0:
 	print 'SEND SMS 1'
 else:
 	print 'ERROR!!!!'
